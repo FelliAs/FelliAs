@@ -1,0 +1,34 @@
+name: Metrics
+on:
+  # Berjalan otomatis setiap 8 jam
+  schedule: [{cron: "0 */8 * * *"}]
+  # Mengizinkan kamu menjalankan workflow ini secara manual kapan saja
+  workflow_dispatch:
+  # Berjalan otomatis jika ada perubahan di branch main
+  push: {branches: ["master", "main"]}
+jobs:
+  github-metrics:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    steps:
+      - uses: lowlighter/metrics@latest
+        with:
+          # Token yang sudah kamu simpan di settings tadi
+          token: ${{ secrets.METRICS_TOKEN }}
+
+          # Konfigurasi Tampilan Utama
+          user: FelliAs
+          template: classic
+          base: header, activity, community, repositories, metadata
+          config_timezone: Asia/Jakarta
+          
+          # Plugin Bahasa Pemrograman (Sesuai tautan yang kamu mau)
+          plugin_languages: yes
+          plugin_languages_ignored: html, css       # Sembunyikan bahasa kosmetik jika mau
+          plugin_languages_limit: 8                 # Menampilkan hingga 8 bahasa teratas
+          plugin_languages_details: bytes-size, percentage # Menampilkan detail ukuran dan persentase
+          plugin_languages_indepth: yes             # Analisis mendalam termasuk commit di repo lain
+          
+          # Kustomisasi Visual
+          theme: tokyonight                         # Menyamakan tema dengan sebelumnya
