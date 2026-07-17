@@ -1,16 +1,17 @@
 ## Hi there 👋
 
-<!--
-**FelliAs/FelliAs** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
 
-Here are some ideas to get you started:
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+### 📊Stats
+<p align="left">
+  <!-- Main Stats Card -->
+  <img src="https://github-readme-stats-eight-theta.vercel.app/api?username=FelliAs&show_icons=true&theme=radical" alt="FelliAs's GitHub Stats" height="180px"/>
+  <!-- Top Languages Card -->
+  <img src="https://github-readme-stats-eight-theta.vercel.app/api/top-langs/?username=FelliAs&layout=compact&theme=radical" alt="Top Languages Used" height="200px"/>
+</p>
+
+### 📈 Activity
+<p align="left">
+  <!-- Contribution Streak Card -->
+  <img src="https://github-readme-streak-stats.herokuapp.com/?user=FelliAs&theme=radical" alt="FelliAs's GitHub Streak" height="180px"/>
+</p>
