@@ -1,4 +1,4 @@
-f## Hi there 👋
+## Hi there 👋
 
 <table border="0" cellpadding="0" cellspacing="0" width="100%">
   <!-- Baris 1: Dua kotak di atas berdampingan -->
@@ -21,7 +21,7 @@ f## Hi there 👋
 </table>
 
 ### Other
-<p align="left">
+<p align="center">
   <!-- Contribution Streak Card -->
-  <img src="github-anilist.svg" alt="AniList Showcase" height="180px"/>
+  <img src="github-anilist.svg" alt="AniList Showcase" width="50%"/>
 </p>
