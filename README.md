@@ -1,4 +1,4 @@
-## Hi there 👋
+f## Hi there 👋
 
 <table border="0" cellpadding="0" cellspacing="0" width="100%">
   <!-- Baris 1: Dua kotak di atas berdampingan -->
@@ -14,14 +14,14 @@
   <tr>
     <td colspan="2" align="center" style="border: none; padding-top: 15px;">
       <div style="width: 60%; margin: 0 auto;">
-        <img src="github-anilist.svg" alt="AniList Showcase" width="50%"/>
+        <img src="https://github-readme-streak-stats.herokuapp.com/?user=FelliAs&theme=radical" alt="FelliAs's GitHub Streak" width="50%"/>
       </div>
     </td>
   </tr>
 </table>
 
-### 📈 Activity
+### Other
 <p align="left">
   <!-- Contribution Streak Card -->
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=FelliAs&theme=radical" alt="FelliAs's GitHub Streak" height="180px"/>
+  <img src="github-anilist.svg" alt="AniList Showcase" height="180px"/>
 </p>
